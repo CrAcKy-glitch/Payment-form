@@ -31,7 +31,7 @@
         * CVV:&nbsp;<input type="text"class="input"placeholder="999"id="cvv">
         
         <br>
-        <input type="submit"class="submit"id="submit">
+        <input type="submit"class="submit"id="submit"onClick='alarm()'>
     </div>
     <select id="crds">
         <option>
@@ -49,7 +49,9 @@
         </div>
     </form>
 <script>
+    function alarm(){
     windows.alert("are you sure you want to continue, you'll be redirected to merchant page");
+    }
     </script>
 
 </body>
