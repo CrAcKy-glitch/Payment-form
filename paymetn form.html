@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="stylesheet" href="paymentForm1.css">
+</head>
+
+<body>
+    <form action="" method="">
+    </form>
+    <form action=""class="container">
+
+        <h1 class="header">
+                Payment Form
+        </h1><br>
+        <img src="https://www.mastercard.com/content/dam/public/mastercardcom/mea/za/logos/mc-logo-52.svg" class="card"required>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png" class="card"required><br>
+        <div class="container1">
+           * Name:&nbsp;<input type="text"class="input"placeholder="Enter your name here"id="name"required><br><br>
+        * Card Number:<input type="text" class="input"placeholder="xxxx xxxx xxxx xxxx"id="crd"required><br>
+        <br>
+        * Expiry Number:&nbsp;&nbsp;<input type="text" class="input"placeholder="mm/yy"id="exp"required><br><br>
+        * CVV:&nbsp;<input type="text"class="input"placeholder="999"id="cvv">
+        
+        <br>
+        <input type="submit"class="submit"id="submit">
+    </div>
+    <select id="crds">
+        <option>
+            <img src="https://www.mastercard.com/content/dam/public/mastercardcom/mea/za/logos/mc-logo-52.svg" class="card">
+            Mastercard
+        </option>
+        <option>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png" class="card">
+            Visa
+        </option>
+
+    </select>
+        <div class="footer">
+              fields marked in * have to be filled
+        </div>
+    </form>
+<script>
+    windows.alert("are you sure you want to continue, you'll be redirected to merchant page");
+    </script>
+
+</body>
+</html>
